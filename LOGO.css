@@ -1,0 +1,107 @@
+*{
+    background-color: black;
+}
+.parent
+{
+    background-color:black;
+    position:relative;
+    display: flex;
+    border: 1px solid white;
+}
+.formm{
+    margin-left: 70px;
+    margin-top:40px;
+}
+input[type="text"] {
+    width: 300px;
+    height: 25px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 60px;
+    box-sizing: border-box;
+    background-color: white;
+  }
+.input1{
+    background-color: black;
+    color:white;
+    border-radius: 100px;
+    margin-left:15px;
+    width:80px;
+    height: 30px;
+}
+.Signin{
+    position:absolute;
+    background-color:white;
+    color:black;
+    border-radius: 100px;
+    margin-left:750px;
+    width:80px;
+    height:30px;
+}
+.SignUp{
+    position:absolute;
+    background-color:white;
+    color:black;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    margin-left:850px;
+    width:80px;
+    height:30px;
+    cursor:pointer;
+}
+  
+
+
+.parent1{
+    position:relative;
+    background-color: black;
+    color:aliceblue;
+    display:flex;
+    height: 60px;
+    width:100%;
+    justify-content: space-around;
+    border: 1px solid white;
+}
+
+.parent1 ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.parent1 ul li{
+    margin:0 90px;
+    justify-content:center;
+}
+.parent1 ul li a{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration:none;
+    color:aliceblue;
+    cursor:pointer;
+}  
+
+.logocontain{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+.mar img{
+    padding-top: 50px;
+    width:450px;
+    height:150px;
+}
+.mar img:hover{
+    transform: scale(1.3);
+    transition: transform 0.5s ease;
+}
+.dc img{
+    width:250px;
+    height:250px;
+    padding-right:100px ;
+}
+.dc img:hover{
+    transform: scale(1.3);
+    transition: transform 0.5s ease;
+}

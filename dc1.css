@@ -1,0 +1,162 @@
+.parent
+{
+    background-color:black;
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.formm{
+    margin-left: 70px;
+    margin-top:40px;
+}
+input[type="text"] {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 60px;
+    box-sizing: border-box;
+  }
+.input1{
+    background-color: black;
+    color:white;
+    border-radius: 100px;
+    margin-left:15px;
+    width:80px;
+    height: 30px;
+}
+.Signin{
+    position:absolute;
+    background-color: black;
+    color:white;
+    border-radius: 100px;
+    margin-left:750px;
+    width:80px;
+    height:30px;
+}
+.SignUp{
+    position:absolute;
+    background-color: black;
+    color:white;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    margin-left:850px;
+    width:80px;
+    height:30px;
+}
+  
+
+
+.parent1{
+    position:relative;
+    background-color: black;
+    color:white;
+    display:flex;
+    height: 60px;
+    width:100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.parent1 ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.parent1 ul li{
+    margin:0 90px;
+    justify-content:space-between;
+}
+.parent1 ul li a{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color:white;
+}
+
+.prod_name{
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left:200px;
+    text-shadow: 2px 2px 4px grey;
+}
+
+
+
+.prod_desc_page{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left:200px;
+    gap:50px;
+}
+.prod_imag{
+    
+}
+.prod_imag img{
+    width:300px;
+    height:450px;
+    box-shadow: 4px 4px 8px gray;
+    
+}
+.prod_imag:hover{
+        transform: scale(1.1); /* Increase the size by 10% */
+        transition: transform 0.3s ease; /* Add smooth transition effect */
+}
+
+.prod_detail{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.prod_desc p{
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 800px;
+    padding-top: 20px;
+    gap:5px;
+}
+.prod_price{
+
+}
+.prod_price p{
+    font-size: 33px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.prod_price h2{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.buy{
+}
+.buy button{
+    font-size: 25px;
+    color: aliceblue;
+    background-color: black;
+    width:170px;
+    height:40px;
+    border-radius: 10px;
+}
+.buy button:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.add_benefit{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:15px;
+
+}
+.add_desc{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.add_desc1{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
