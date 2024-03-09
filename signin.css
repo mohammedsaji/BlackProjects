@@ -1,0 +1,154 @@
+.parent
+{
+    background-color:black;
+    position:relative;
+    display: flex;
+}
+.formm{
+    margin-left: 70px;
+    margin-top:40px;
+}
+input[type="text"] {
+    width: 300px;
+    height: 25px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 60px;
+    box-sizing: border-box;
+    background-color: white;
+  }
+.input1{
+    background-color: black;
+    color:white;
+    border-radius: 100px;
+    margin-left:15px;
+    width:80px;
+    height: 30px;
+}
+.Signin{
+    position:absolute;
+    background-color:white;
+    color:black;
+    border-radius: 100px;
+    margin-left:750px;
+    width:80px;
+    height:30px;
+}
+.SignUp{
+    position:absolute;
+    background-color:white;
+    color:black;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    margin-left:850px;
+    width:80px;
+    height:30px;
+    cursor:pointer;
+}
+  
+
+
+.parent1{
+    position:relative;
+    background-color: black;
+    color:aliceblue;
+    display:flex;
+    height: 60px;
+    width:100%;
+    justify-content: space-around;
+}
+
+.parent1 ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.parent1 ul li{
+    margin:0 90px;
+    justify-content:space-between;
+}
+.parent1 ul li a{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration:none;
+    color:aliceblue;
+    cursor:pointer;
+}
+.allcontain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.alhead{
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+}
+.big_container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-color: black;
+    width: 400px;
+    height:420px; 
+    background-color: black;
+    gap:30px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.container img{
+    padding-top: 10px;
+    width:30px;
+    height: 30px;
+}
+.head{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    margin-top: 10px;
+}
+.user input{
+    font-size: 15px;
+    width:250px;
+    height:20px;
+    border:2px solid aliceblue;
+    border-radius: 5px;
+}
+.pass input{
+    font-size: 15px;
+    width:250px;
+    height:20px;
+    border:2px solid aliceblue;
+    border-radius: 5px;
+}
+.buton{
+    padding-bottom: 20px;
+}
+.buton button{
+    background-color: rgb(0, 214, 0);
+    color: white;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:120px;
+    height: 30px;
+    border-radius: 10px;
+}
+.quest p{
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

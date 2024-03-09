@@ -1,0 +1,37 @@
+.discon{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.head h1 {
+    margin-top: 100px;
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+}
+.para p{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 800px;
+}
+.but button{
+
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    width:200px;
+    height:60px;
+}
+.head2 h2{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}

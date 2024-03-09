@@ -1,0 +1,579 @@
+.parent
+{
+    background-color:black;
+    position:relative;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+.formm{
+    margin-left: 70px;
+    margin-top:40px;
+}
+input[type="text"] {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 60px;
+    box-sizing: border-box;
+  }
+.input1{
+    background-color: black;
+    color:white;
+    border-radius: 100px;
+    margin-left:15px;
+    width:80px;
+    height: 30px;
+}
+.Signin{
+    position:absolute;
+    background-color: black;
+    color:white;
+    border-radius: 100px;
+    margin-left:650px;
+    width:80px;
+    height:30px;
+}
+.SignUp{
+    position:absolute;
+    background-color: black;
+    color:white;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    margin-left:750px;
+    width:80px;
+    height:30px;
+}
+  
+
+
+.parent1{
+    position:relative;
+    background-color: black;
+    color:white;
+    display:flex;
+    height: 60px;
+    width:100%;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+}
+
+.parent1 ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.parent1 ul li{
+    margin:0 90px;
+    justify-content:space-between;
+}
+.parent1 ul li a{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color:white;
+}
+.homehead{
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(200, 229, 255);
+    text-shadow: 5px 0px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    background-color: black;
+    width:auto;
+}
+
+.home{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:50px;
+    box-sizing: border-box;
+    padding-top:100px;
+}
+.hpic img{
+    width:230px;
+    height:350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px gray;
+}
+.hpic img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.homet{
+
+}
+.h01 h2{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+.hdetail{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.hauthor{
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+.hgenre{
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hdesc p{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 900px;
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hpri{
+    font-size:35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hbut button{
+    background-color:black;
+    color:aliceblue;
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+}
+.hbut button:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+
+.home2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:40px;
+    box-sizing: border-box;
+    margin-top:100px;
+}
+.hpic2 img{
+    width:230px;
+    height:350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px gray;
+}
+.hpic2 img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.homet2{
+
+}
+.h02 h2{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+.hdetail2{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.hauthor2{
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+.hgenre2{
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hdesc2 p{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 900px;
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hpri2{
+    font-size:35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hbut2 button{
+    background-color:black;
+    color:aliceblue;
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+}
+.hbut2 button:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+
+.home3{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:40px;
+    box-sizing: border-box;
+    margin-top:100px;
+}
+.hpic3 img{
+    width:230px;
+    height:350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px gray;
+}
+.hpic3 img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.homet3{
+
+}
+.h03 h2{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+.hdetail3{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.hauthor3{
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+.hgenre3{
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hdesc3 p{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 900px;
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hpri3{
+    font-size:35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hbut3 button{
+    background-color:black;
+    color:aliceblue;
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+}
+.hbut3 button:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+.home4{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:40px;
+    box-sizing: border-box;
+    margin-top:100px;
+}
+.hpic4 img{
+    width:230px;
+    height:350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px gray;
+}
+.hpic4 img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.homet4{
+
+}
+.h04 h2{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+.hdetail4{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.hauthor4{
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+.hgenre4{
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hdesc4 p{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 900px;
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hpri4{
+    font-size:35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hbut4 button{
+    background-color:black;
+    color:aliceblue;
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+}
+.hbut4 button:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+
+.home5{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:40px;
+    box-sizing: border-box;
+    margin-top:100px;
+}
+.hpic5 img{
+    width:230px;
+    height:350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px gray;
+}
+.hpic5 img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.homet5{
+
+}
+.h05 h2{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+.hdetail5{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.hauthor5{
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+.hgenre5{
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hdesc5 p{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 900px;
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hpri5{
+    font-size:35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hbut5 button{
+    background-color:black;
+    color:aliceblue;
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+}
+.hbut5 button:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+.parent2{
+    margin-top: 50px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:150px;
+}
+
+.prod1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+
+}
+.image img{
+    width:230px;
+    height:350px;
+    box-shadow: 4px 4px 10px gray;
+}
+.image img:hover{
+    transform: translateY(-20px);
+    transition: transform 0.5s ease;
+}
+.name h3{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.butto button{
+    background-color:black;
+    color:aliceblue;
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+}
+
+.prod2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image2{
+
+}
+.image2 img{
+    width:230px;
+    height:350px;
+
+    box-shadow: 4px 4px 10px gray;
+}
+.image2 img:hover{
+    transform: translateY(-20px);
+    transition: transform 0.5s ease;
+}
+.name2 h3{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.butto2 button{
+    background-color:black;
+    color:aliceblue;
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+}
+
+.prod3{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image3{
+
+}
+.image3 img{
+    width:230px;
+    height:350px;
+
+    box-shadow: 4px 4px 10px gray;
+}
+.image3 img:hover{
+    transform: translateY(-20px);
+    transition: transform 0.5s ease;
+}
+.name3 h3{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.butto3 button{
+    background-color:black;
+    color:aliceblue;
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+}
+
+.prod4{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image4{
+
+}
+.image4 img{
+    width:230px;
+    height:350px;
+
+    box-shadow: 4px 4px 10px gray;
+}
+.image4 img:hover{
+    transform: translateY(-20px);
+    transition: transform 0.5s ease-in-out;
+}
+.name4 h3{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.butto4 button{
+    background-color:black;
+    color:aliceblue;
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+}
+.homehead1{
+    padding: 0;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(210, 234, 255);
+    text-shadow: 2px 2px 4px rgb(147, 118, 5);
+    text-align: center;
+    width:fit-content;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width:100%;
+    height:100px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.logo img{
+    margin-left: 30px;
+    padding-top: 30px;
+}
+.f1{
+    margin:auto;
+    color:aliceblue;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
